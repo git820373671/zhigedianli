@@ -1,0 +1,24 @@
+{
+  "code": "1",
+  "result": {
+    "success": true,
+    "chartIconData": [
+      {
+        "title": "有功能率",
+        "num": "123kwh"
+      },
+      {
+        "title": "无功功率",
+        "num": "600kwh"
+      },
+      {
+        "title": "功率因数",
+        "num": "8000"
+      },
+      {
+        "title": "电流",
+        "num": "90A"
+      }
+    ]
+  }
+}

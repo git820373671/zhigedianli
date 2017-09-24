@@ -1,0 +1,56 @@
+.menu-box {
+  position: absolute;
+  padding-top: 90px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 200px;
+  height: 100%;
+
+  > .menu-btn {
+    display: block;
+    width: 24px;
+    height: 47px;
+    padding: 20px 0 10px 20px;
+    > img {
+      display: block;
+      width: 24px;
+    }
+  }
+
+  > .ivu-menu-light {
+    width: 200px;
+    background: none;
+    padding-left: 20px;
+    .ivu-menu-item, .ivu-menu-submenu {
+      width: 180px;
+
+    }
+    .ivu-menu-submenu-title, .ivu-menu-item {
+      padding: 0;
+      font-size: 18px;
+      color: @color-f2;
+      border: none;
+      height: 50px;
+      line-height: 50px;
+      .ivu-icon {
+        font-size: 18px;
+        top: 14px;
+        right: 20px;
+      }
+    }
+  }
+  .ivu-menu-submenu .ivu-menu .ivu-menu-item {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-vertical .ivu-menu-submenu-title:hover, .ivu-menu-item-selected {
+    background: @color-primary;
+    color: @color-f2 !important;
+    border: none !important;
+  }
+  .ivu-menu-vertical.ivu-menu-light:after {
+    display: none;
+  }
+}

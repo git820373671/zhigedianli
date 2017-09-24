@@ -1,0 +1,28 @@
+{
+  "code": "1",
+  "result": {
+    "success": true,
+    "floorOneData": [
+      {
+        "title": "今日电量",
+        "num": "12345KWH",
+        "IsUp": false
+      },
+      {
+        "title": "昨日电量",
+        "num": "6000KWH",
+        "IsUp": true
+      },
+      {
+        "title": "当月电量",
+        "num": "8000KWH",
+        "IsUp": true
+      },
+      {
+        "title": "上月电量",
+        "num": "9000KWH",
+        "IsUp": false
+      }
+    ]
+  }
+}

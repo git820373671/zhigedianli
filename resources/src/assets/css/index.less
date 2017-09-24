@@ -1,0 +1,256 @@
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px 0 230px;
+  &:after{
+    position: absolute;
+    top:0;
+    left: 200px;
+    width: 1px;
+    height: 100%;
+    display: block;
+   background: @mask-f-3;
+    content: '';
+  }
+  .ivu-breadcrumb {
+    text-align: left;
+    .ivu-breadcrumb-item-link {
+      font-size: 14px;
+      color: @color-f2;
+      font-weight: lighter;
+    }
+  }
+  .cue-time {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    font-size: 14px;
+    color: @color-f2;
+    padding-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    background: url("../images/icon30.png") 0 center no-repeat;
+  }
+  .floor1 {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+    .floor-con {
+      position: relative;
+      width: 90%;
+      height: 120px;
+      margin: 0 auto;
+      padding: 20px 0 0 90px;
+      border-radius: 10px;
+      > i {
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 60px;
+        top: 25px;
+        left: 15px;
+
+      }
+      > h2 {
+        text-align: left;
+        line-height: 40px;
+        font-size: 18px;
+        color: @color-f2;
+      }
+      > p {
+        text-align: left;
+
+        font-size: 14px;
+        color: @color-f2;
+      }
+      > .right-icon {
+        position: absolute;
+        width: 16px;
+        height: 44px;
+        top: 35px;
+        right: 10px;
+        &.up {
+          background: url("../images/icon17.png") center no-repeat;
+        }
+        &.down {
+          background: url("../images/icon18.png") center no-repeat;
+        }
+      }
+    }
+    .ivu-col:nth-child(1) {
+      .floor-con {
+        .bg-green;
+        > i {
+          background: url("../images/icon14.png") center no-repeat;
+        }
+      }
+    }
+    .ivu-col:nth-child(2) {
+      .floor-con {
+        .bg-yellow;
+        > i {
+          background: url("../images/icon15.png") center no-repeat;
+        }
+      }
+    }
+    .ivu-col:nth-child(3) {
+      .floor-con {
+        .bg-red;
+        > i {
+          background: url("../images/icon16.png") center no-repeat;
+        }
+      }
+    }
+    .ivu-col:nth-child(4) {
+      .floor-con {
+        .bg-blue;
+        > i {
+          background: url("../images/icon13.png") center no-repeat;
+        }
+      }
+    }
+
+  }
+  .floor2 {
+    width: 100%;
+    height: 420px;
+    margin: 30px 0;
+    .title {
+      width: 100%;
+      height: 55px;
+      line-height: 40px;
+      font-size: 18px;
+      color: @color-f2;
+      font-weight: lighter;
+      text-align: left;
+
+      .icon19 {
+        padding: 10px 25px;
+        background: url("../images/icon19.png") center no-repeat;
+      }
+      .icon20 {
+        padding: 10px 20px;
+        background: url("../images/icon20.png") center no-repeat;
+      }
+      .btn {
+        position: relative;
+        z-index: 10;
+        float: right;
+        cursor: pointer;
+      }
+    }
+    .chart-box {
+      width: 100%;
+      margin-top: -70px;
+    }
+    .chart-bottom {
+      height: 65px;
+      > li {
+        width: 25%;
+        height: 65px;
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        color: @color-f2;
+        > p {
+          height: 30px;
+          width: 75%;
+          margin: 0 auto 5px auto;
+          border-radius: 3px;
+          font-size: 14px;
+          color: @color-f2;
+          line-height: 30px;
+        }
+        &:nth-child(1) > p {
+          .bg-blue;
+        }
+        &:nth-child(2) > p {
+          .bg-green;
+        }
+        &:nth-child(3) > p {
+          .bg-red
+        }
+        &:nth-child(4) > p {
+          .bg-yellow
+        }
+      }
+    }
+  }
+  .floor3 {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 30px;
+    .floor3-con {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      padding-top: 5px;
+      padding-left: 60px;
+      text-align: left;
+      > p {
+        font-size: 16px;
+        line-height: 20px;
+        color: @color-f2;
+        white-space: nowrap;
+      }
+      > i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .ivu-col:nth-child(1) {
+      .floor3-con > i {
+        background: url("../images/icon22.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(2) {
+      .floor3-con > i {
+        background: url("../images/icon23.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(3) {
+      .floor3-con > i {
+        background: url("../images/icon24.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(4) {
+      .floor3-con > i {
+        background: url("../images/icon25.png") center no-repeat;
+      }
+
+    }
+    .ivu-col:nth-child(5) {
+      .floor3-con > i {
+        background: url("../images/icon26.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(6) {
+      .floor3-con > i {
+        background: url("../images/icon27.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(7) {
+      .floor3-con > i {
+        background: url("../images/icon28.png") center no-repeat;
+
+      }
+    }
+    .ivu-col:nth-child(8) {
+      .floor3-con > i {
+        background: url("../images/icon29.png") center no-repeat;
+      }
+
+    }
+  }
+}

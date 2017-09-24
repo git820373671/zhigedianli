@@ -1,0 +1,39 @@
+{
+  "code": "1",
+  "result": {
+    "success": true,
+    "floorThreeData": [
+      {
+        "title": "采集点",
+        "num": "12个"
+      },
+      {
+        "title": "正常点",
+        "num": "60个"
+      },
+      {
+        "title": "异常点",
+        "num": "125个"
+      },
+      {
+        "title": "断开点",
+        "num": "60个"
+      },{
+        "title": "电压等级",
+        "num": "111KV"
+      },
+      {
+        "title": "变压器台数",
+        "num": "6台"
+      },
+      {
+        "title": "装机容量",
+        "num": "8000KVA"
+      },
+      {
+        "title": "运行容量",
+        "num": "900KW"
+      }
+    ]
+  }
+}
